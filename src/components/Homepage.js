@@ -3,12 +3,14 @@ import { Button } from 'react-bootstrap';
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
+import pythonImage from "../Images/python.png";
+import phpImage from "../Images/php.png";
+import profileImage from "../Images/smile_man.png";
 
 const Homepage = () => {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1>
+      <h1>Nissho Code</h1>
 
       <img src={profileImage} className="profileImage" />
 
@@ -77,13 +79,28 @@ const Homepage = () => {
             </div>
             <div class="col-md-4 services">
               <img src={jsImage} />
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
+              <h4>Javascript</h4>
+              <p>HTML/CSS/Javascriptがつかえます</p>
+            </div>
+            <div class="col-md-4 services">
+              <img src={pythonImage} />
+              <h4>Python</h4>
+              <p>Pythonがつかえます</p>
+            </div>
+            <div class="col-md-4 services">
+              <img src={phpImage} />
+              <h4>PHP</h4>
+              <p>PHPがつかえます</p>
             </div>
             <div class="col-md-4 services">
               <img src={firebaseImage} />
               <h4>Firebase</h4>
               <p>Firebaseがつかえます</p>
+            </div>
+            <div class="col-md-4 services">
+              <img src={firebaseImage} />
+              <h4>SQL</h4>
+              <p>MySQLがつかえます</p>
             </div>
           </div>
           <button type="button" class="btn btn-primary">
